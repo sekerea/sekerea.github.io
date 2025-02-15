@@ -2,9 +2,9 @@
   "name": "bridgewatching",
   "version": "0.0.1",
   "description": "Craft, refine and sell items in Albion Online with efficiency",
-  "main": "dist/index.js",
+  "main": "docs/index.js",
   "scripts": {
-    "build": "mkdir -p dist && cp -r src/css dist/ && cp src/index.html dist/ && npx tsc"
+    "build": "mkdir -p docs && cp -r src/css docs/ && cp src/index.html docs/ && npx tsc"
   },
   "keywords": [
     "Albion Online",
