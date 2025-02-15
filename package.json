@@ -1,0 +1,17 @@
+{
+  "name": "bridgewatching",
+  "version": "0.0.1",
+  "description": "Craft, refine and sell items in Albion Online with efficiency",
+  "main": "dist/index.js",
+  "scripts": {},
+  "keywords": [
+    "Albion Online",
+    "webapp"
+  ],
+  "author": "Artiom Astashonak",
+  "license": "MIT",
+  "type": "commonjs",
+  "devDependencies": {
+    "typescript": "^5.7.3"
+  }
+}
