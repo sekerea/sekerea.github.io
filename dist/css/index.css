@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-shadow: none;
+  border: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  line-height: 1.5;
+}
