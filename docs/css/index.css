@@ -86,3 +86,101 @@
 .server_time p {
   font-size: 1.5rem;
 }
+
+@media(max-width: 1250px) {
+  .navbar {
+    font-size: 1.05rem;
+  }
+  
+  .main_functionality_card h2 {
+    font-size: 1.5rem;
+  }
+
+  .main_functionality_card p {
+    font-size: 1rem;
+  }
+}
+
+@media(max-width: 1080px) {
+  .navbar {
+    display: none;
+  }
+
+  .main_functionality {
+    flex-direction: column;
+  }
+
+  .main_functionality_card {
+    min-width: 55%;
+  }
+
+  .main_functionality_card h2 {
+    font-size: 1.75rem;
+  }
+
+  .main_functionality_card p {
+    font-size: 1.25rem;
+  }
+}
+
+@media(max-width: 1000px) {
+  .main_functionality_card h2 {
+    text-align: center;
+  }
+
+  .main_functionality_card p {
+    display: none;
+  }
+
+  .server_time h2 {
+    font-size: 2rem;
+  }
+
+  .server_time p {
+    font-size: 1.25rem;
+  }
+}
+
+@media(max-width: 800px) {
+  .hero h1 {
+    font-size: 3.5rem;
+  }
+
+  .hero p {
+    font-size: 1.5rem;
+  }
+
+  .main_functionality_card h2 {
+    font-size: 1.35rem;
+  }
+
+  .server_time h1 {
+    font-size: 2.15rem;
+  }
+
+  .server_time p {
+    font-size: 1rem;
+  }
+}
+
+@media(max-width: 525px) {
+  .hero h1 {
+    font-size: 2.9rem;
+  }
+
+  .hero p {
+    font-size: 1.15rem;
+  }
+
+  .main_functionality_card h2 {
+    font-size: 1.15rem;
+  }
+
+  .server_time h1 {
+    font-size: 1.75rem;
+  }
+
+  .server_time p {
+    font-size: 0.8rem;
+  }
+}

@@ -81,3 +81,16 @@ h1, h2, h3 {
   justify-content: start;
   flex-direction: column;
 }
+
+.footer p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+@media(max-width: 800px) {
+  .footer {
+    font-size: 0.85rem;
+  }
+}
