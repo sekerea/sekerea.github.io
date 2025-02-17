@@ -4,7 +4,7 @@
   "description": "Craft, refine and sell items in Albion Online with efficiency",
   "main": "docs/index.js",
   "scripts": {
-    "build": "mkdir -p docs && cp -r src/css docs/ && cp src/index.html docs/ && npx tsc"
+    "build": "npx tsc"
   },
   "keywords": [
     "Albion Online",

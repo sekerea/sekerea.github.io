@@ -1,5 +1,4 @@
 .navbar {
-  width: auto; 
   padding: 1.25rem;
   position: relative;
   box-shadow: 0px 10px 10px var(--shadow-color);
@@ -9,6 +8,16 @@
   gap: 7.5rem;
   font-size: 1.25rem;
   font-weight: 800;
+}
+
+.navbar a {
+  padding: 0.25em;
+}
+
+.navbar a:hover {
+  border-radius: 10px;
+  background-color: var(--primary-accent-color);
+  color: var(--background-color);
 }
 
 .hero {
@@ -35,15 +44,19 @@
 }
 
 .main_functionality {
+  padding-top: 5rem;
   display: flex;
+  flex-wrap: wrap;
+  align-content: center;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
   gap: 2rem;
+  box-shadow: 0px -10px 10px var(--background-color);
 }
 
 .main_functionality_card {
-  flex-grow: 1;
+  min-width: 40%;
+  min-height: 100%;
   border-radius: 10px;
   padding: 1.5rem;
   border: 0.25rem solid var(--border-color);

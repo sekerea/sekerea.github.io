@@ -30,11 +30,11 @@ a {
   color: inherit;
   text-decoration: none;
   transition-duration: 0.5s;
+  cursor: pointer;
 }
 
 a:hover {
   color: var(--primary-accent-color);
-  cursor: pointer;
 }
 
 h1, h2, h3 {
@@ -43,6 +43,10 @@ h1, h2, h3 {
 
 .break {
   margin-bottom: 5rem;
+}
+
+.underline {
+  text-decoration: underline;
 }
 
 .footer {
